@@ -3,7 +3,7 @@ import bodyParser from "body-parser";
 import cors from "cors";
 import mongoose from "mongoose";
 import auth from "./routes/auth";
-import notes from "./routs/auth";
+import notes from "./routes/auth";
 
 mongoose.connect("mongodb://localhost/personaldiary_db", {
   useNewUrlParser: true,
